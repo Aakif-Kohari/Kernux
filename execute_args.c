@@ -16,7 +16,7 @@ int execute_args(char **args)
         &own_help,
         &own_exit
     };
-    int i = 0;
+    long unsigned int i = 0;
 
     if (args[0] == NULL)
     {

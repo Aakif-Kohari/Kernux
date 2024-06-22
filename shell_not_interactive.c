@@ -1,6 +1,6 @@
 #include "kernux.h"
 
-void shell_no_interactive(void)
+void shell_not_interactive(void)
 {
     char *line;
     char **args;

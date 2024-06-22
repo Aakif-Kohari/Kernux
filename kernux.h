@@ -13,22 +13,22 @@
 extern char **environ;
 
 /*** Prototypes ***/
-// main.c
+/* main.c */
 void shell_interactive(void);
 void shell_not_interactive(void);
 
-// shell_interactive.c
+/* shell_interactive.c */
 char *read_line(void);
 char **split_line(char *line);
 int execute_args(char **args);
 
-// execute_args.c
+/* execute_args.c */
 int new_process(char **args);
 
-// shell_no_interactive
+/* shell_not_interactive */
 char *read_stream(void);
 
-/*** BuiltIn Func */
+/*** BuiltIn Func ***/
 int own_cd(char **args);
 int own_exit(char **args);
 int own_env(char **args);
