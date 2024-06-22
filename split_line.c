@@ -1,5 +1,6 @@
 #include "kernux.h"
 
+
 char **split_line(char *line)
 {
     int bufsize = 64;

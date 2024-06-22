@@ -1,5 +1,6 @@
 #include "kernux.h"
 
+
 char *read_stream(void)
 {
     int bufsize = 1024;
